@@ -1,10 +1,9 @@
-import React, { useState } from "react";
-import Numbers from './Numbers';
+import React from "react";
 
 const NumberButton = (props) => {
   return (
     <>
-    <button onClick={(info) => setNumberState(props.name)}>{props.name}</button>
+    <button>{props.name}</button>
     </>
   );
 };
