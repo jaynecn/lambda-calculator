@@ -6,8 +6,15 @@
     border: 2px solid grey;
     padding-bottom: 25px;
 }
+
+.logo-container {
+    margin: 25px;
+    width: 10%;
+}
+
 .display {
     margin-top: 25px;
+    margin-left: 25px;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -20,3 +27,56 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  .App {
+      /* border: 1px solid green; */
+      display: flex;
+      /* flex-wrap: wrap; */
+      flex-direction: row;
+      margin: 25px;
+  }
+
+  .specials-numbers {
+      width: 400px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+
+  .operators {
+      width: 100px;
+      padding-right: 15px;
+      display: flex;
+      flex-direction: column;
+      
+  }
+
+  .button {
+      width: 100px;
+      height: 100px;
+      font-size: 30px;
+      box-shadow: 1px 5px #322c2d;
+      margin-right: 25px;
+      margin-bottom: 25px;
+      border-radius: 50%;
+      border: none;
+      color: white;
+  }
+
+  #special {
+      background-color: rgb(59, 59, 212);
+  }
+
+  #number {
+    background-color: rgb(51, 51, 99);
+}
+
+#operator {
+    background-color: rgb(47, 71, 94);
+}
+
+#zero {
+    background-color: rgb(51, 51, 99);
+    width: 225px;
+    border-radius: 50px;
+}
